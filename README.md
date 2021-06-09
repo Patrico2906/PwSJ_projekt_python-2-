@@ -1,4 +1,4 @@
-# PwSJ_projekt_python-2-
+# PwSJ_projekt_python-2 PROJEKT ZNAJDUJE SIĘ W PLIKU E.14
 
 
 Projekt obejmuje wszelkie treści laboratoryjne, z których to miała powstać aplikacja WEB-owa.
