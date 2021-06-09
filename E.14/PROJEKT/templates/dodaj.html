@@ -1,0 +1,19 @@
+{% extends "baza.html" %}
+
+{% block content %}
+	<h1>{{tytul}}</h1>
+	<p class="lead">{{tresc}}</p>
+	<img src="dodaj.png" alt="dodaj" width="100" height="100"><h3>Poniżej zawarty jest formularz, do dodania pracownika.</h3>
+	<form action = "{{url_for('addrec')}}" method = "POST">
+		 Imię i nazwisko<br>
+		 <input type = "text" name = "imienazwisko" /></br>
+
+		 Numer pracownika<br> 
+		 <input type = "text" name = "nrpracownika" /><br>
+
+		 Adres<br>
+		 <textarea name = "adres" ></textarea><br>
+		 
+		 <input type = "submit" value = "Zapisz" /><br>
+	 </form>
+{% endblock %}
